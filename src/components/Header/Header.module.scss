@@ -1,0 +1,23 @@
+.header_container {
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px
+}
+.header_container_popover {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.header_avatar {
+    font-size: 17px;
+    background: #D4D4D8;
+    padding: 10px 8px 10px 8px;
+    border-radius: 100px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
